@@ -115,11 +115,7 @@ const Home: React.FC = () => {
                   description="Tincidunt lobortis feugiat vivamus at augue eget.
                 Risus feugiat in ante metus dictum. Amet aliquam id diam maecenas."
                 />
-                <a
-                  className="whatsUrl"
-                  target="_blank"
-                  href="https://wa.me/55044999498550"
-                >
+                <a className="whatsUrl" href="https://wa.me/55044999498550">
                   <img src={whatsappLogo} alt="Whatsapp" />
                   Entre em contato
                 </a>
@@ -132,19 +128,13 @@ const Home: React.FC = () => {
             <section className="itens">
               <h1>Mídias sociais</h1>
               <div>
-                <a
-                  target="_blank"
-                  href="https://www.instagram.com/constroy.incorporadora/"
-                >
+                <a href="https://www.instagram.com/constroy.incorporadora/">
                   <img src={instagramLogo} alt="Instagram" />
                   <p>@constroy.incorporadora</p>
                 </a>
               </div>
               <div>
-                <a
-                  target="_blank"
-                  href="https://www.facebook.com/constroy.incorporadora"
-                >
+                <a href="https://www.facebook.com/constroy.incorporadora">
                   <img src={facebookLogo} alt="Facebook" />
                   <p>@constroy.incorporadora</p>
                 </a>
@@ -154,8 +144,7 @@ const Home: React.FC = () => {
             <section className="itens">
               <h1>Fale conosco</h1>
               <div>
-                <a target="_blank" href="https://wa.me/55044999498550"
-                >
+                <a href="https://wa.me/55044999498550">
                   <img src={whatsappLogo} alt="Facebook" />
                   <p>+55 (44) 99949-8550</p>
                 </a>
@@ -167,8 +156,7 @@ const Home: React.FC = () => {
                 </a>
               </div>
               <div>
-                <a target="_blank" href="https://goo.gl/maps/RCN8squGcXboJChM9"
-                >
+                <a href="https://goo.gl/maps/RCN8squGcXboJChM9">
                   <img src={endereco} alt="Facebook" />
                   <p>Av. Maringá n2424, CEP 87111-001, Sarandi-PR</p>
                 </a>
